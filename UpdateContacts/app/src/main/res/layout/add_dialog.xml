@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialog_addContact"
+    android:background="#fb856b">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:id="@+id/editText_name"
+        android:hint="@string/name" />
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/view_separator"
+        android:layout_below="@+id/editText_name"
+        android:background="#afaaaa"
+        android:layout_height="4dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:maxLength="10"
+        android:id="@+id/editText_phone"
+        android:padding="5dp"
+        android:hint="@string/phone"
+        android:layout_below="@+id/view_separator"
+        android:background="#FFFFFF"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/view_separator2"
+        android:layout_below="@+id/editText_phone"
+        android:background="#bdb7b7"
+        android:layout_height="2dp"/>
+
+</RelativeLayout>

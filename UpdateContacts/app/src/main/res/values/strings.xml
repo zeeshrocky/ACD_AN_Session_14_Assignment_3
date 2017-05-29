@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Update Contacts</string>
+    <string name="phone">Enter contact number</string>
+    <string name="name">Enter contact name</string>
+    <string name="message">New Contact Inserted in Phonebook</string>
+    <string name="warning">Contact already exists</string>
+    <string name="empty">Contact Details cannot be Empty</string>
+    <string name="show_all">Show contacts</string>
+    <string name="edit">Edit Contact Details</string>
+</resources>
